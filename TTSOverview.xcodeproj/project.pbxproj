@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82DFD7D3139894DA002DEF64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFD7D2139894DA002DEF64 /* UIKit.framework */; };
+		82DFD7D5139894DA002DEF64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFD7D4139894DA002DEF64 /* Foundation.framework */; };
+		82DFD7D7139894DA002DEF64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFD7D6139894DA002DEF64 /* CoreGraphics.framework */; };
+		82DFD7DD139894DA002DEF64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DFD7DB139894DA002DEF64 /* InfoPlist.strings */; };
+		82DFD7E0139894DA002DEF64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFD7DF139894DA002DEF64 /* main.m */; };
+		82DFD7E3139894DA002DEF64 /* TTSOverviewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFD7E2139894DA002DEF64 /* TTSOverviewAppDelegate.m */; };
+		82DFD7E6139894DA002DEF64 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DFD7E4139894DA002DEF64 /* MainWindow.xib */; };
+		82DFD7E9139894DA002DEF64 /* TTSOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFD7E8139894DA002DEF64 /* TTSOverviewViewController.m */; };
+		82DFD7EC139894DA002DEF64 /* TTSOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DFD7EA139894DA002DEF64 /* TTSOverviewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82DFD7CE139894DA002DEF64 /* TTSOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DFD7D2139894DA002DEF64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82DFD7D4139894DA002DEF64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82DFD7D6139894DA002DEF64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82DFD7DA139894DA002DEF64 /* TTSOverview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTSOverview-Info.plist"; sourceTree = "<group>"; };
+		82DFD7DC139894DA002DEF64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82DFD7DE139894DA002DEF64 /* TTSOverview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTSOverview-Prefix.pch"; sourceTree = "<group>"; };
+		82DFD7DF139894DA002DEF64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82DFD7E1139894DA002DEF64 /* TTSOverviewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSOverviewAppDelegate.h; sourceTree = "<group>"; };
+		82DFD7E2139894DA002DEF64 /* TTSOverviewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSOverviewAppDelegate.m; sourceTree = "<group>"; };
+		82DFD7E5139894DA002DEF64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		82DFD7E7139894DA002DEF64 /* TTSOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSOverviewViewController.h; sourceTree = "<group>"; };
+		82DFD7E8139894DA002DEF64 /* TTSOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSOverviewViewController.m; sourceTree = "<group>"; };
+		82DFD7EB139894DA002DEF64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTSOverviewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DFD7CB139894DA002DEF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFD7D3139894DA002DEF64 /* UIKit.framework in Frameworks */,
+				82DFD7D5139894DA002DEF64 /* Foundation.framework in Frameworks */,
+				82DFD7D7139894DA002DEF64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82DFD7C3139894DA002DEF64 = {
+			isa = PBXGroup;
+			children = (
+				82DFD7D8139894DA002DEF64 /* TTSOverview */,
+				82DFD7D1139894DA002DEF64 /* Frameworks */,
+				82DFD7CF139894DA002DEF64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82DFD7CF139894DA002DEF64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DFD7CE139894DA002DEF64 /* TTSOverview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DFD7D1139894DA002DEF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DFD7D2139894DA002DEF64 /* UIKit.framework */,
+				82DFD7D4139894DA002DEF64 /* Foundation.framework */,
+				82DFD7D6139894DA002DEF64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DFD7D8139894DA002DEF64 /* TTSOverview */ = {
+			isa = PBXGroup;
+			children = (
+				82DFD7E1139894DA002DEF64 /* TTSOverviewAppDelegate.h */,
+				82DFD7E2139894DA002DEF64 /* TTSOverviewAppDelegate.m */,
+				82DFD7E4139894DA002DEF64 /* MainWindow.xib */,
+				82DFD7E7139894DA002DEF64 /* TTSOverviewViewController.h */,
+				82DFD7E8139894DA002DEF64 /* TTSOverviewViewController.m */,
+				82DFD7EA139894DA002DEF64 /* TTSOverviewViewController.xib */,
+				82DFD7D9139894DA002DEF64 /* Supporting Files */,
+			);
+			path = TTSOverview;
+			sourceTree = "<group>";
+		};
+		82DFD7D9139894DA002DEF64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DFD7DA139894DA002DEF64 /* TTSOverview-Info.plist */,
+				82DFD7DB139894DA002DEF64 /* InfoPlist.strings */,
+				82DFD7DE139894DA002DEF64 /* TTSOverview-Prefix.pch */,
+				82DFD7DF139894DA002DEF64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DFD7CD139894DA002DEF64 /* TTSOverview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DFD7EF139894DA002DEF64 /* Build configuration list for PBXNativeTarget "TTSOverview" */;
+			buildPhases = (
+				82DFD7CA139894DA002DEF64 /* Sources */,
+				82DFD7CB139894DA002DEF64 /* Frameworks */,
+				82DFD7CC139894DA002DEF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSOverview;
+			productName = TTSOverview;
+			productReference = 82DFD7CE139894DA002DEF64 /* TTSOverview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DFD7C5139894DA002DEF64 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 82DFD7C8139894DA002DEF64 /* Build configuration list for PBXProject "TTSOverview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82DFD7C3139894DA002DEF64;
+			productRefGroup = 82DFD7CF139894DA002DEF64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DFD7CD139894DA002DEF64 /* TTSOverview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DFD7CC139894DA002DEF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFD7DD139894DA002DEF64 /* InfoPlist.strings in Resources */,
+				82DFD7E6139894DA002DEF64 /* MainWindow.xib in Resources */,
+				82DFD7EC139894DA002DEF64 /* TTSOverviewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DFD7CA139894DA002DEF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFD7E0139894DA002DEF64 /* main.m in Sources */,
+				82DFD7E3139894DA002DEF64 /* TTSOverviewAppDelegate.m in Sources */,
+				82DFD7E9139894DA002DEF64 /* TTSOverviewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82DFD7DB139894DA002DEF64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFD7DC139894DA002DEF64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82DFD7E4139894DA002DEF64 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFD7E5139894DA002DEF64 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		82DFD7EA139894DA002DEF64 /* TTSOverviewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFD7EB139894DA002DEF64 /* en */,
+			);
+			name = TTSOverviewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DFD7ED139894DA002DEF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82DFD7EE139894DA002DEF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		82DFD7F0139894DA002DEF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTSOverview/TTSOverview-Prefix.pch";
+				INFOPLIST_FILE = "TTSOverview/TTSOverview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82DFD7F1139894DA002DEF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTSOverview/TTSOverview-Prefix.pch";
+				INFOPLIST_FILE = "TTSOverview/TTSOverview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DFD7C8139894DA002DEF64 /* Build configuration list for PBXProject "TTSOverview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DFD7ED139894DA002DEF64 /* Debug */,
+				82DFD7EE139894DA002DEF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DFD7EF139894DA002DEF64 /* Build configuration list for PBXNativeTarget "TTSOverview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DFD7F0139894DA002DEF64 /* Debug */,
+				82DFD7F1139894DA002DEF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DFD7C5139894DA002DEF64 /* Project object */;
+}
