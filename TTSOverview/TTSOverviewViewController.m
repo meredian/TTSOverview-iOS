@@ -1,4 +1,5 @@
 
+#import <AVFoundation/AVFoundation.h>
 #import "TTSOverviewViewController.h"
 #import "FliteTTS.h"
 
@@ -42,8 +43,25 @@
     [self runFlite:_textView.text];
 }
 
+- (IBAction)GoogleTapped {
+    [self runGoogle:_textView.text];
+}
+
 #pragma mark - Synthesizers
 - (void)runFlite:(NSString *)text {
     [_fliteEngine speakText:text];
 }
+
+- (void)runGoogle:(NSString *)text {
+    NSLog(@"GoogleTTS is executed");
+    NSString *queryTTS = [text stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+    NSString *linkTTS = [NSString stringWithFormat:@"http://translate.google.com/translate_tts?tl=en&q=%@",queryTTS];
+    
+    NSData *dataTTS = [NSData dataWithContentsOfURL:[NSURL URLWithString:linkTTS]];
+    
+    _googlePlayer = [[AVAudioPlayer alloc] initWithData:dataTTS error:nil]; 
+    [_googlePlayer play];
+}
+
+
 @end
